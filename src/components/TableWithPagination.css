@@ -1,0 +1,163 @@
+.tableAndButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.tablePad {
+  min-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  color: silver;
+  border: 1px solid black;
+  font-family: 'Roboto Condensed', sans-serif;
+  /* font-size: calc(5px + 1vw); */
+  font-size: 1.4vw;
+  font-weight: 300;
+}
+.col01 {}
+.col02 {}
+.col03 {}
+.col04 {}
+.col05 {
+  visibility: collapse;
+  width: 0;
+}
+.col06 {}
+.col07 {}
+.col08 {}
+.col09 {}
+.col10 {}
+.col11 {}
+
+caption {
+  padding: 1vh 0 1vh;
+  text-align: right;
+}
+thead {
+  text-transform: capitalize;
+  border-top: 1px solid silver;
+}
+td{
+  padding: 0.5vh 1vh;
+}
+th:nth-child(1) {
+  width: 5%;
+}
+td:nth-child(1) {
+  font-size: 80%;
+  font-weight: 900;
+}
+th:nth-child(2) {
+  width: 23%;
+}
+td:nth-child(2) {
+  text-align: left;
+}
+th:nth-child(3) {
+  width: 4%;
+}
+td:nth-child(3) {}
+th:nth-child(4) {
+  width: 16%;
+}
+td:nth-child(4) {
+  text-align: left;
+}
+th:nth-child(5) {
+  width: 5%;
+}
+td:nth-child(5) {}
+th:nth-child(6) {
+  width: 10%;
+}
+td:nth-child(6) {
+}
+th:nth-child(7) {
+  width: 21%;
+}
+td:nth-child(7) {
+  text-align: left;
+}
+th:nth-child(8) {}
+td:nth-child(8) {}
+th:nth-child(9) {}
+td:nth-child(9) {}
+th:nth-child(10) {}
+td:nth-child(10) {}
+th:nth-child(11) {}
+td:nth-child(11) {}
+
+th, td {
+  padding: 0.6vh 1vh;
+}
+tbody tr:nth-of-type(2n+1) {
+  background-color: rgba(48, 48, 96, 0.4);
+}
+
+tbody {}
+
+.buttonBlock {
+  display: flex;
+  justify-content: end;
+  padding: 2vh 0;
+}
+
+.buttonBlock .buttonPrev {
+  width: 16vw;
+  margin: 0 0.5% 0 0;
+  padding: 1vh 0;
+  color: silver;
+  background-color: rgb(0,0,12);
+  border: 1px solid #61dafb80;
+  border-radius: 3px;
+}
+.buttonBlock .buttonPageNr {
+  width: 10vw;
+  margin: 0 0.5%;
+  color: silver;
+  background-color: rgb(0,0,12);
+  border: 1px solid #61dafb80;
+  border-radius: 3px;
+}
+.buttonBlock .buttonPageNrBold {
+  width: 10vw;
+  font-weight: 700;
+  margin: 0 0.5%;
+  color: silver;
+  background-color: rgb(0,0,12);
+  border: 1px solid #61dafb80;
+  border-radius: 3px;
+}
+.buttonBlock .buttonNext {
+  width: 16vw;
+  margin: 0 0 0 0.5%;
+  color: silver;
+  background-color: rgb(0,0,12);
+  border: 1px solid #61dafb80;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width : 1024px) {
+  table {
+    font-size: 2vw;
+  }
+  .MainBlockClassName {
+    padding: 0 3%;
+  }
+  .tablePad {
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (max-width : 992px) {
+  .MainBlockClassName {
+    padding: 0 2%;
+  }
+}

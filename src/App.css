@@ -1,0 +1,86 @@
+.MainBlockClassName {
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+  padding: 0 4%;
+}
+
+@media only screen and (max-width : 1280px) {
+
+}
+
+@media only screen and (max-width : 1024px) {
+/*   table {
+    font-size: 2vw;
+  }
+  .MainBlockClassName {
+    padding: 0 3%;
+  } */
+
+  .col01 {
+    visibility: collapse;
+    width: 0;
+  }
+  .col04 {
+    visibility: collapse;
+    width: 0;
+  }
+  .col05 {
+    visibility: visible;
+    width: unset;
+  }
+  .col06 {
+    visibility: collapse;
+    width: 0;
+  }
+  th:nth-child(2) {
+    width: 30%;
+  }
+  th:nth-child(3) {
+    width: 5%;
+  }
+    th:nth-child(5) {
+    width: 7%;
+  }
+  th:nth-child(7) {
+    width: 27%;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  /* header {
+    display: none;
+    background-color: cornflowerblue;
+  }
+   */
+  /* .tablePad {
+    overflow-y: scroll;
+  } */
+
+  .MainBlockClassName {
+    height: 95vh;
+    margin: 2vh 0;
+    padding: 0 2%;
+  }
+
+  /* .tableAndButtons {
+    height: 100%;
+  }   */
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
