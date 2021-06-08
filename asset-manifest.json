@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/OlimpChampTable/static/css/main.f4b466f3.chunk.css",
+    "main.js": "/OlimpChampTable/static/js/main.ba3b0efd.chunk.js",
+    "main.js.map": "/OlimpChampTable/static/js/main.ba3b0efd.chunk.js.map",
+    "runtime-main.js": "/OlimpChampTable/static/js/runtime-main.73476412.js",
+    "runtime-main.js.map": "/OlimpChampTable/static/js/runtime-main.73476412.js.map",
+    "static/js/2.09261cdc.chunk.js": "/OlimpChampTable/static/js/2.09261cdc.chunk.js",
+    "static/js/2.09261cdc.chunk.js.map": "/OlimpChampTable/static/js/2.09261cdc.chunk.js.map",
+    "static/js/3.85627ab4.chunk.js": "/OlimpChampTable/static/js/3.85627ab4.chunk.js",
+    "static/js/3.85627ab4.chunk.js.map": "/OlimpChampTable/static/js/3.85627ab4.chunk.js.map",
+    "index.html": "/OlimpChampTable/index.html",
+    "static/css/main.f4b466f3.chunk.css.map": "/OlimpChampTable/static/css/main.f4b466f3.chunk.css.map",
+    "static/js/2.09261cdc.chunk.js.LICENSE.txt": "/OlimpChampTable/static/js/2.09261cdc.chunk.js.LICENSE.txt",
+    "static/media/248px_Bronze.33ab419d.png": "/OlimpChampTable/static/media/248px_Bronze.33ab419d.png",
+    "static/media/248px_Gold.dc259a3f.png": "/OlimpChampTable/static/media/248px_Gold.dc259a3f.png",
+    "static/media/248px_Silver.f58fbbc9.png": "/OlimpChampTable/static/media/248px_Silver.f58fbbc9.png",
+    "static/media/fonts.css": "/OlimpChampTable/static/media/OpenSans-Regular.1b0809d5.ttf",
+    "static/media/logo.6ce24c58.svg": "/OlimpChampTable/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.73476412.js",
+    "static/js/2.09261cdc.chunk.js",
+    "static/css/main.f4b466f3.chunk.css",
+    "static/js/main.ba3b0efd.chunk.js"
+  ]
+}
