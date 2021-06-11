@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/OlimpChampTable/static/css/main.ae3defab.chunk.css",
+    "main.css": "/OlimpChampTable/static/css/main.41e4fe85.chunk.css",
     "main.js": "/OlimpChampTable/static/js/main.08648f7e.chunk.js",
     "main.js.map": "/OlimpChampTable/static/js/main.08648f7e.chunk.js.map",
     "runtime-main.js": "/OlimpChampTable/static/js/runtime-main.73476412.js",
@@ -10,7 +10,7 @@
     "static/js/3.85627ab4.chunk.js": "/OlimpChampTable/static/js/3.85627ab4.chunk.js",
     "static/js/3.85627ab4.chunk.js.map": "/OlimpChampTable/static/js/3.85627ab4.chunk.js.map",
     "index.html": "/OlimpChampTable/index.html",
-    "static/css/main.ae3defab.chunk.css.map": "/OlimpChampTable/static/css/main.ae3defab.chunk.css.map",
+    "static/css/main.41e4fe85.chunk.css.map": "/OlimpChampTable/static/css/main.41e4fe85.chunk.css.map",
     "static/js/2.09261cdc.chunk.js.LICENSE.txt": "/OlimpChampTable/static/js/2.09261cdc.chunk.js.LICENSE.txt",
     "static/media/248px_Bronze.33ab419d.png": "/OlimpChampTable/static/media/248px_Bronze.33ab419d.png",
     "static/media/248px_Gold.dc259a3f.png": "/OlimpChampTable/static/media/248px_Gold.dc259a3f.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.73476412.js",
     "static/js/2.09261cdc.chunk.js",
-    "static/css/main.ae3defab.chunk.css",
+    "static/css/main.41e4fe85.chunk.css",
     "static/js/main.08648f7e.chunk.js"
   ]
 }
