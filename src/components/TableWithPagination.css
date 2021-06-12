@@ -6,6 +6,10 @@
 }
 .tablePad {
   min-width: 100%;
+  padding: 1vh 0;
+  border: 1px solid #61dafb80;
+  border-radius: 3px;
+  background-color: #61dafb20;
   overflow-x: hidden;
   overflow-y: hidden;
 }
@@ -17,7 +21,6 @@ table {
   color: silver;
   border: 1px solid black;
   font-family: 'Roboto Condensed', sans-serif;
-  /* font-size: calc(5px + 1vw); */
   font-size: 1.4vw;
   font-weight: 300;
 }
@@ -105,7 +108,7 @@ tbody {}
 
 .buttonBlock {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
   padding: 2vh 0;
 }
 
@@ -114,34 +117,34 @@ tbody {}
   margin: 0 0.5% 0 0;
   padding: 1vh 0;
   color: silver;
-  background-color: rgb(0,0,12);
   border: 1px solid #61dafb80;
   border-radius: 3px;
+  background-color: #61dafb20;
 }
 .buttonBlock .buttonPageNr {
   width: 10vw;
   margin: 0 0.5%;
   color: silver;
-  background-color: rgb(0,0,12);
   border: 1px solid #61dafb80;
   border-radius: 3px;
+  background-color: #61dafb20;
 }
 .buttonBlock .buttonPageNrBold {
   width: 10vw;
   font-weight: 700;
   margin: 0 0.5%;
   color: silver;
-  background-color: rgb(0,0,12);
   border: 1px solid #61dafb80;
   border-radius: 3px;
+  background-color: #61dafb20;
 }
 .buttonBlock .buttonNext {
   width: 16vw;
   margin: 0 0 0 0.5%;
   color: silver;
-  background-color: rgb(0,0,12);
   border: 1px solid #61dafb80;
   border-radius: 3px;
+  background-color: #61dafb20;
 }
 
 @media only screen and (max-width : 1024px) {
@@ -159,5 +162,19 @@ tbody {}
 @media only screen and (max-width : 992px) {
   .MainBlockClassName {
     padding: 0 2%;
+  }
+}
+
+@media only screen and (max-width : 768px) {
+  table {
+    font-size: 3vw;
+  }
+  .tablePad {
+    min-height: 20vh;
+    max-height: 30vh;
+    overflow-y: scroll;
+  }
+  .tableAndButtons {
+    height: unset;
   }
 }

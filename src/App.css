@@ -1,9 +1,56 @@
-.MainBlockClassName {
+.MainBlock_MainBlockClassName {
   display: flex;
   justify-content: center;
   height: 85vh;
   padding: 0 4%;
 }
+.MainBlock_MainExtraClassName {
+  width: 78%;
+  padding: 0 1%;
+}
+.MainBlock_AsideExtraClassName {
+  width: 20%;
+  padding: 0 1%;
+}
+
+.AsideActive_SelfStyle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 95%;
+  max-height: 95%;
+  padding: 2vh 1% 0%;
+  font-family: Lato;
+  font-size: calc(3.5vw - (1vw - 0.3vw));
+  font-weight: 300;
+  text-align: center;
+  color: silver;
+  line-height: calc(6px + 5vmin);
+  border: 1px solid #61dafb80;
+  border-radius: 3px;
+  background-color: #61dafb20;
+  overflow: hidden;
+}
+.AsideActive_ChampionSportAndYear {
+  font-size: 1.6vw;
+  font-weight: 600;
+}
+.AsideActive_ChampionAthlete {
+  padding-top: 2vh;
+}
+.AsideActive_ChampionCountry {
+  font-size: 1.6vw;
+  font-weight: 600;
+  padding: 1vh;
+}
+
+.AsideActive_ImgGoldMedal,
+.AsideActive_ImgSilverMedal,
+.AsideActive_ImgBronzeMedal {
+  width: 5vw;
+}
+
 
 @media only screen and (max-width : 1280px) {
 
@@ -33,17 +80,14 @@
     visibility: collapse;
     width: 0;
   }
-  th:nth-child(2) {
-    width: 30%;
+  table th:nth-child(2) {
+    width: 28%;
   }
-  th:nth-child(3) {
-    width: 5%;
+  table th:nth-child(3) {
+    width: 4%;
   }
-    th:nth-child(5) {
-    width: 7%;
-  }
-  th:nth-child(7) {
-    width: 27%;
+  table th:nth-child(7) {
+    width: 24%;
   }
 }
 
@@ -58,7 +102,7 @@
     overflow-y: scroll;
   } */
 
-  .MainBlockClassName {
+  .MainBlock_MainBlockClassName {
     height: 95vh;
     margin: 2vh 0;
     padding: 0 2%;
@@ -72,7 +116,53 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+  .MainBlock_MainBlockClassName {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    /* height: unset; */
+  }
+  .MainBlock_MainExtraClassName {
+    width: 98%;
+    padding: 0 1%;
+  }
+  .MainBlock_AsideExtraClassName {
+    width: 96%;
+    padding: 0 1% 2vh;
+  }
+  .col03 {
+    visibility: collapse;
+    width: 0;
+  }
+  .col11 {
+    visibility: collapse;
+    width: 0;
+  }
+  table th:nth-child(2) {
+    width: 30%;
+  }
+  table th:nth-child(7) {
+    width: 30%;
+  }
+  .AsideActive_SelfStyle {
+    min-height: unset;
+    max-height: unset;
+    font-size: calc(8vw - (1vw - 0.3vw));
+    line-height: calc(24px + 5vmin);
+  }
+  .AsideActive_ChampionSportAndYear {
+    font-size: 5vw;
+    font-weight: 400;
+  }
+  .AsideActive_ChampionCountry {
+    font-size: 5vw;
+    font-weight: 400;
+  }
+  .AsideActive_ImgGoldMedal,
+  .AsideActive_ImgSilverMedal,
+  .AsideActive_ImgBronzeMedal {
+    width: 15vw;
+  }
 }
 
 /* Extra Small Devices, Phones */

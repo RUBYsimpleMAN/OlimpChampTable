@@ -12,11 +12,11 @@ const MainBlock = () => {
   }
 
   return (
-    <div className='MainBlockClassName'>
-      <div style={styleMainExtra}>
+    <div className='MainBlock_MainBlockClassName'>
+      <div className='MainBlock_MainExtraClassName'>
         <TableWithPagination selectChampion={selectChampion}/>
       </div>
-      <div style={styleAsideExtra}>
+      <div className='MainBlock_AsideExtraClassName'>
         <Aside champion={champion} />
       </div>
     </div>
@@ -24,14 +24,3 @@ const MainBlock = () => {
 }
 
 export default MainBlock
-
-const styleMainExtra = {
-  width: '78%',
-  padding: '0 1%',
-}
-const styleAsideExtra = {
-  width: '20%',
-  padding: '0 1%',
-  textAlign: 'center',
-  color: 'silver',
-}
