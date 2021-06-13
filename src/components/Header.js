@@ -33,6 +33,9 @@ header {
   color: #61dafb;
 }
 .centerBlock {
+  font-family: Raleway;
+  font-size: 3.4vw;
+  font-weight: 100;
 }
 .rightBlock {
   color: black;

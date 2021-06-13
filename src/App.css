@@ -119,8 +119,8 @@
   .MainBlock_MainBlockClassName {
     display: flex;
     flex-direction: column-reverse;
-    justify-content: space-evenly;
-    /* height: unset; */
+    justify-content: flex-end;
+    overflow-y: scroll;
   }
   .MainBlock_MainExtraClassName {
     width: 98%;

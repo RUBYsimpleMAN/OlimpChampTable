@@ -120,6 +120,7 @@ tbody {}
   border: 1px solid #61dafb80;
   border-radius: 3px;
   background-color: #61dafb20;
+  font-size: 1.2vw;
 }
 .buttonBlock .buttonPageNr {
   width: 10vw;
@@ -128,15 +129,17 @@ tbody {}
   border: 1px solid #61dafb80;
   border-radius: 3px;
   background-color: #61dafb20;
+  font-size: 1.2vw;
 }
 .buttonBlock .buttonPageNrBold {
   width: 10vw;
-  font-weight: 700;
   margin: 0 0.5%;
   color: silver;
   border: 1px solid #61dafb80;
   border-radius: 3px;
   background-color: #61dafb20;
+  font-size: 1.2vw;
+  font-weight: 700;
 }
 .buttonBlock .buttonNext {
   width: 16vw;
@@ -145,6 +148,7 @@ tbody {}
   border: 1px solid #61dafb80;
   border-radius: 3px;
   background-color: #61dafb20;
+  font-size: 1.2vw;
 }
 
 @media only screen and (max-width : 1024px) {
